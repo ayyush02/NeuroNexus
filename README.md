@@ -11,6 +11,50 @@ A simple Google Form-like contact form built with HTML and CSS.
 - Form validation
 - Modern UI with hover effects
 - Clean and minimalistic design
+- Animated background
+- Glass-morphic design elements
+
+## Local Development
+
+### Prerequisites
+- Python 3.x (for local server)
+- Web browser
+
+### Running Locally
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/ayyush02/NeuroNexus.git
+   cd NeuroNexus
+   ```
+
+2. Start the local server:
+   ```bash
+   # Using Python's built-in HTTP server
+   python3 -m http.server 8000
+   ```
+
+3. Open your web browser and visit:
+   ```
+   http://localhost:8000
+   ```
+
+4. To stop the server:
+   - Press `Ctrl+C` in the terminal
+
+### Alternative Server Options
+
+You can also use other local servers:
+
+1. Using Node.js (if installed):
+   ```bash
+   npx http-server
+   ```
+
+2. Using PHP (if installed):
+   ```bash
+   php -S localhost:8000
+   ```
 
 ## Deployment
 
@@ -35,6 +79,5 @@ This project is configured for deployment on Vercel. To deploy:
 - `styles.css` - CSS styles
 - `vercel.json` - Vercel configuration
 
-## Local Development
-
-To run locally, simply open `index.html` in your web browser.
+## Note
+The form is currently static (HTML/CSS only). Form submissions will not be processed without additional backend implementation.
